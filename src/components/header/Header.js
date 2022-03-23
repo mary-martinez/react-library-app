@@ -11,7 +11,7 @@ export default function Header() {
         <ul>
           <li>
             <NavLink exact to='/'>
-              Main
+              Home
             </NavLink>
           </li>
           <li>

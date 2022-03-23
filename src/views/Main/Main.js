@@ -2,6 +2,10 @@ import React from 'react';
 
 export default function Main() {
   return (
-    <div>Checkout everything the library has to offer! Click on Books to learn more</div>
+    <div>
+      <h3>
+        Checkout everything the library has to offer! See our <a href='/books'>catalog</a> to learn more.
+      </h3>
+    </div>
   );
 }
