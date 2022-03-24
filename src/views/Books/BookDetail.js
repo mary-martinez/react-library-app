@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import Book from '../../components/book/Book';
 import { getBookById } from '../../services/books';
 
@@ -16,7 +16,7 @@ function BookDetail() {
 
   return (
     <div>
-      <a href='/books'>Back to catalog</a>
+      <Link to='/books'>Back to catalog</Link>
       <Book book={book} showDetail />;
     </div>
   );
